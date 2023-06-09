@@ -1,0 +1,88 @@
+body{
+    background-color: chocolate;
+    width: 100%;
+}
+
+.Header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 40px auto;
+    list-style: none;
+}
+
+.nav-bar li a{
+    text-decoration: none;
+    color: white;
+}
+
+.sect1{
+    text-align: center;
+    color: white;
+}
+
+.Blogo{
+   color: white;
+}
+
+main{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.sect2{
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin: 50px auto;
+    margin-top: -20px;
+}
+
+#work option{
+    background-color: peachpuff;
+    padding: 10px;
+}
+
+input, label{
+    margin-bottom: 10px;
+}
+
+.submit{
+    background-color: white;
+    color: chocolate;
+    border:  none;
+    padding: 10px 27px;
+    font-size: 18px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.submit:hover{
+    background-color: rgb(245, 225, 225);
+    color: rgb(241, 140, 68);
+}
+
+.sect3, .foot{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sect3 input{
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+}
